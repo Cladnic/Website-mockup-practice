@@ -1,0 +1,146 @@
+/*variables*/
+:root {
+    --sidebar-color: #2c3e50;
+    --main-color: #333;
+  }
+  
+  /*******************************************/
+  /*standard styles for body, text and images*/
+  /*******************************************/
+  body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  /*********/
+  /*Sidebar*/
+  /*********/
+  .sidebar {
+    position: fixed;
+    z-index: 1;
+    padding-top: 150px;
+    background-color: var(--sidebar-color);
+    color: #fff;
+    width: 20%;
+    height: 100%;
+    min-width: 140px;
+    text-align: center;
+  }
+  
+  .sidebar ul {
+    padding: 0;
+  }
+  
+  .sidebar li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .sidebar button{
+    width: 38px;
+    height: 30px;
+    border-radius: 3px;
+    border-width: 0;
+    transition: 0.25s all;
+  }
+  
+  .sidebar button:hover {
+    background-color: rgb(170, 197, 255);
+    cursor: pointer;
+  }
+  
+  .sidebar img {
+    opacity: 80%;
+    width: 70%
+  }
+  
+  .sidebar p{
+    font-size: 11px;
+  }
+  
+  .sidebar h3{
+    font-size: 24px;
+    letter-spacing: 3px;
+  }
+  
+  /*********************/
+  /*Content of the site*/
+  /*********************/
+  .container {
+    margin-left: 20%
+  }
+
+  .container-wrapper {
+      margin-left: 40px;
+  }
+  
+  .container h1 {
+    margin: 0;
+    padding-top: 50px;
+    font-size: 50px;
+    color: var(--sidebar-color);
+  }
+  
+  .container h2 {
+    margin-top: 50px;
+    color: #838383;
+    width:fit-content;
+  }
+  .container h2:hover {
+    text-decoration: underline;
+  }
+  
+  .container h2 a {
+    color: #838383;
+    text-decoration: none;
+  }
+  
+  .container p {
+    margin-bottom: 30px;
+  }
+
+  .container button{
+    margin-top: 20px;
+    width: 50px;
+    height: 40px;
+    border-radius: 3px;
+    transition: 0.25s all;
+  }
+  
+  .container button:hover {
+    background-color: rgb(170, 197, 255);
+    cursor: pointer;
+  }
+  
+  .container img {
+    opacity: 80%;
+    width: 70%
+  }
+  
+  
+  /******************/
+  /*Custom Codeblock*/
+  /******************/
+  .codeBlock {
+    border-radius: 10px;
+    background-color: #161b22;
+    color: #fff;
+    width: fit-content;
+  }
+  
+  .codeBlock pre{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  /********/
+  /*Footer*/
+  /********/
+  footer {
+    width: 100%;
+    height: 50px;
+    margin-left: 20%;
+  }
