@@ -5,4 +5,4 @@ https://cladnic.github.io/index
 to brush up on some long forgotten frontend stuff.
 
 Preview Image of site:
-![image](https://user-images.githubusercontent.com/21344056/118493687-aa115b00-b721-11eb-8338-18f329173819.png)
+![image](https://user-images.githubusercontent.com/21344056/121789059-0194d080-cbd3-11eb-825e-beb394b89382.png)
