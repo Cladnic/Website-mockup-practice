@@ -106,6 +106,7 @@
     height: 40px;
     border-radius: 3px;
     transition: 0.25s all;
+    background-color: var(--sidebar-color);
   }
   
   .container button:hover {
