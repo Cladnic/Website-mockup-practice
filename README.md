@@ -1,7 +1,7 @@
 # Website-mockup-practice
 
 Practice website which can be viewed at: 
-https://cladnic.github.io/Website-mockup-practice/index.html 
+https://cladnic.github.io/index
 to brush up on some long forgotten frontend stuff.
 
 Preview Image of site:
