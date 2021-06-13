@@ -69,6 +69,7 @@ h2 {
   border-radius: 3px;
   border-width: 0;
   transition: 0.25s all;
+  margin-bottom: 20px;
 }
 
 .sidebar button:hover {
@@ -116,8 +117,8 @@ h2 {
 }
 
 .container .line {
-  margin-left: 100px;
-  width: 300px;
+  margin-left: 80px;
+  width: 200px;
   border-bottom-style: solid;
   border-bottom-width: 5px;
   border-color: #2c3e50;
@@ -165,22 +166,14 @@ h2 {
   bottom: 10px;
   width: 100px;
   height: 30px;
-}
-
-/******************/
-/*Custom Codeblock*/
-/******************/
-.codeBlock {
-  margin-left: 20px;
-  border-radius: 10px;
-  background-color: #161b22;
   color: #fff;
-  width: fit-content;
+  background-color: #2c3e50;
+  border-radius: 5px;
+  border: none;
+  transition: 0.25s all;
 }
 
-.codeBlock pre{
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+.project-grid-item button:hover {
+  cursor: pointer;
+  background-color: #3c6d9e;
 }
