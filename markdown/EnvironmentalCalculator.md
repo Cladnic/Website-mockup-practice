@@ -39,7 +39,7 @@ Finally one can view statistics over their emissions in the statistics tab.
 <img src="https://raw.githubusercontent.com/Cladnic/EnvironmentalCalculator/main/Documents/screenshots/statisticsTotal.png" alt="statistics" class="previewImage">
 
 
-<a href="https://www.github.com/cladnic/simpleblockchain" target="_blank" class="repository">
+<a href="https://github.com/Cladnic/EnvironmentalCalculator" target="_blank" class="repository">
     <span>source code</span>
     <img src="images/button-images/whitegithubbtnimg.png" alt="github image">
 </a>
