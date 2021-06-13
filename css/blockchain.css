@@ -100,9 +100,29 @@ h2 {
     margin: 20px;
   }
   
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .tags li {
+    list-style-type: none;
+    box-sizing: border-box;
+    padding: 7px;
+    background: var(--sidebar-color);
+    width: fit-content;
+    border-radius: 15px;
+    color: #fff;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+
   .container h1 {
     margin: 0;
-    padding-top: 50px;
+    margin-top: 20px;
     font-size: 50px;
     color: var(--sidebar-color);
   }
