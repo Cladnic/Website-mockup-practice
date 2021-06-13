@@ -90,92 +90,22 @@ h2 {
   letter-spacing: 3px;
 }
   
-  /*********************/
-  /*Content of the site*/
-  /*********************/
-  .container {
-    flex-basis: 0;
-    flex-grow: 999;
-    min-width: 55%;
-    margin: 20px;
-  }
-  
-  .tags {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    margin: 0;
-    margin-top: 20px;
-  }
+/*********************/
+/*Content of the site*/
+/*********************/
+.container {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: 55%;
+  margin: 20px;
+}
 
-  .tags li {
-    list-style-type: none;
-    box-sizing: border-box;
-    padding: 7px;
-    background: var(--sidebar-color);
-    width: fit-content;
-    border-radius: 15px;
-    color: #fff;
-    margin-right: 5px;
-    margin-top: 5px;
-  }
-
-  .container h1 {
-    margin: 0;
-    margin-top: 20px;
-    font-size: 50px;
-    color: var(--sidebar-color);
-  }
-
-  .backButton button{
-    margin-top: 20px;
-    width: 50px;
-    height: 40px;
-    border-radius: 3px;
-    transition: 0.25s all;
-    background-color: var(--sidebar-color);
-  }
+.container h1 {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 50px;
+  color: var(--sidebar-color);
+}
   
-  .backButton button:hover {
-    background-color: #3c6d9e;
-    cursor: pointer;
-  }
-  
-  .backButton img {
-    opacity: 80%;
-    width: 70%
-  }
-
-  .repository button{
-    width: 50px;
-    height: 45px;
-    border-radius: 7px;
-    transition: 0.25s all;
-    background-color: var(--sidebar-color);
-  }
-  
-  .repository button:hover {
-    background-color: #3c6d9e;
-    cursor: pointer;
-  }
-  
-  .repository img {
-    opacity: 80%;
-    width: 70%
-  }
-  
-  
-  /******************/
-  /*Custom Codeblock*/
-  /******************/
-  .codeBlock {
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #161b22;
-    color: #fff;
-    word-wrap: break-word;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
 
   
