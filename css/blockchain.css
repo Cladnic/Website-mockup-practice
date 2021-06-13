@@ -106,25 +106,8 @@ h2 {
     font-size: 50px;
     color: var(--sidebar-color);
   }
-  
-  .container h2 {
-    margin-top: 50px;
-    color: #838383;
-  }
-  .container h2:hover {
-    text-decoration: underline;
-  }
-  
-  .container h2 a {
-    color: #838383;
-    text-decoration: none;
-  }
-  
-  .container p {
-    margin-bottom: 30px;
-  }
 
-  .container button{
+  .backButton button{
     margin-top: 20px;
     width: 50px;
     height: 40px;
@@ -133,12 +116,30 @@ h2 {
     background-color: var(--sidebar-color);
   }
   
-  .container button:hover {
+  .backButton button:hover {
     background-color: #3c6d9e;
     cursor: pointer;
   }
   
-  .container img {
+  .backButton img {
+    opacity: 80%;
+    width: 70%
+  }
+
+  .repository button{
+    width: 50px;
+    height: 45px;
+    border-radius: 7px;
+    transition: 0.25s all;
+    background-color: var(--sidebar-color);
+  }
+  
+  .repository button:hover {
+    background-color: #3c6d9e;
+    cursor: pointer;
+  }
+  
+  .repository img {
     opacity: 80%;
     width: 70%
   }
@@ -153,6 +154,8 @@ h2 {
     background-color: #161b22;
     color: #fff;
     word-wrap: break-word;
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
+
   
